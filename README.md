@@ -8,3 +8,5 @@ Open **Actions** in GitHub and select the latest successful **Build Rexera Workf
 Extract it and run **Rexera Workflow.exe**.
 
 The renderer is React/Vite and Electron provides the native Windows shell.
+
+Build workflow is configured in .github/workflows/build-windows.yml.
