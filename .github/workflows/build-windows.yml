@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build Windows desktop package
-        run: npm run dist:win
+        run: npm run build && npx electron-builder --win nsis zip --x64 --publish never
       - name: Upload Windows ZIP
         uses: actions/upload-artifact@v4
         with:
